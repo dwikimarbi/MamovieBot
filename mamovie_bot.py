@@ -358,6 +358,9 @@ async def top(message, l='10', *s: str):
                                 for genre in data['data']['movies'][0]['genres']:
                                     if genre_name == genre.lower():
                                         genre_check = True
+                                        break
+                            else:
+                                genre_check = True
                             if genre_check:
                                 footer = 'Top {} {} {} Movie  Request by {}'.format(
                                     l, s.capitalize(), genre_name.capitalize(), message.author.display_name)
@@ -390,6 +393,9 @@ async def top(message, l='10', *s: str):
                                 for genre in data['data']['movies'][0]['genres']:
                                     if genre_name == genre.lower():
                                         genre_check = True
+                                        break
+                            else:
+                                genre_check = True
                             if genre_check:
                                 footer = 'Top {} {} {} Movie  Request by {}'.format(
                                     l, s.capitalize(), genre_name.capitalize(), message.author.display_name)
