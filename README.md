@@ -56,6 +56,7 @@ pip install youtube-dl
 * [Genius api](https://docs.genius.com/#/getting-started-h1)
 * A little some [LyricsGenius](https://github.com/johnwmillr/LyricsGenius) code by johnwmillr 
 * [Torrent Movie api](https://yts.mx/api) by Yify
+* [My REST api](https://github.com/DNABigBoss/REST-API-Mamovie) by myself
 
 ## Additional
 All the code that I make is almost 100% my own by looking at the documentation of all the Api's.
