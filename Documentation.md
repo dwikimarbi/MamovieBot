@@ -21,7 +21,135 @@ But there were times when I stopped developing the bot because of a lot of thing
 I just guessed but i can be sure this is right. I forgot exactly how much time that i spend.
 
 ## Structure Codes
+For my discord.py bot that i use divided into several files :
+```
+MamovieBot
+├── .gitignore
+├── LICENSE.txt
+├── README.md
+├── .env
+├── country_id.json
+├── mamovie_bot.py
+|     ├── is_empty
+|     ├── request_song_info
+|     ├── scrap_song_url
+|     ├── search_movie_torrent
+|     ├── on_ready
+|     ├── commands
+|     ├── lyrics
+|     ├── rate
+|     ├── editrate
+|     ├── search
+|     ├── latest
+|     ├── top
+|     ├── youtube
+|     ├── covid
+|     └── test
+├── key_loader.py
+|     └── GENERAL_ACCESS_TOKEN
+└── requirements.txt
+```
+
+And then for my REST-API i use a CodeIgniter Framework. With add a library from [codeigniter-restserver](https://github.com/chriskacerguis/codeigniter-restserver) by  chriskacerguis. :
+```
+Mamovie REST API
+|   application
+|   ├── config
+|   |     └── rest.php
+|   ├── controllers
+|   |     ├── CountryId.php (In the Future, i will use my country id api for my bot)
+|   |     |     ├── get
+|   |     |     ├── post
+|   |     |     ├── put
+|   |     |     └── delete
+|   |     ├── Movie.php
+|   |     |     ├── get
+|   |     |     ├── post
+|   |     |     ├── put
+|   |     └──   └── delete
+|   ├── libraries
+|   |     └── RestController.php
+|   ├── controllers
+|   |     ├── CountryId_model.php (In the Future, i will use my country id api for my bot)
+|   |     |     ├── get
+|   |     |     ├── create
+|   |     |     ├── update
+|   |     |     └── delete
+|   |     ├── Movie_model.php
+|   |     |     ├── get
+|   |     |     ├── post
+|   |     |     ├── put
+└── └──   └──   └── delete
+```
 
 ## Class and Function 
+File: mamovie_bot.py
+Function Name | Access Level | Parameter | Return 
+--- | --- | --- | --- 
+is_empty | public | any_structure | Boolean
+request_song_info | public | song_title : str, artist_name : str | response : response
+scrap_song_url | public | url : str | lyrics : str
+search_movie_torrent | public | data : dict, movie_count : int, footer : str | embeds : list
+on_ready | public | None | None
+commands | public | ctx : discord.ctx | None
+lyrics | public | message : discord.message | None
+rate | public | message : discord.message, s : Tuple | None
+addrate | public | message : discord.message, rate : float, s : Tuple | None
+editrate | public | message : discord.message, rate : float, s : Tuple | None
+search | public | message : discord.message, s : Tuple | None
+latest | public | message : discord.message, l : int | None
+top | public | message : discord.message, l : int, s : Tuple | None
+youtube | public | ctx : discord.ctx, search : Tuple | None
+covid | public | message : discord.message, country : Tuple | None
+test | public | message : discord.message | None
+
+File: key_loader.py
+Function Name | Access Level | Parameter | Return 
+--- | --- | --- | --- 
+load_dotenv | public | None | None
+
+File: CountryId.php
+Function Name | Access Level | Parameter | Return 
+--- | --- | --- | --- 
+construct | private | None | None
+index_get | public | code : str, name : str | response : response
+index_post | public | code : str, name : str | response : response
+index_put | public | code : str, name : str | response : response
+index_delete | public | code : str | response : response
+
+File: Movies.php
+Function Name | Access Level | Parameter | Return 
+--- | --- | --- | --- 
+construct | private | None | None
+index_get | public | id : int, name : str | response : response
+index_post | public | name : str, status : str, rate : float | response : response
+index_put | public | name : str, status : str, rate : float | response : response
+index_delete | public | id : int | response : response
+
+File: CountryId_model.php
+Function Name | Access Level | Parameter | Return 
+--- | --- | --- | --- 
+getCountryId | public | code : str, name : str | response : response
+createCountryId | public | code : str, name : str | response : response
+updateCountryId | public | code : str, name : str | response : response
+deleteCountryId | public | code : str | response : response
+
+File: Movies_model.php
+Function Name | Access Level | Parameter | Return 
+--- | --- | --- | --- 
+getMovie | public | id : int, name : str | response : response
+createMovie | public | name : str, status : str, rate : float | response : response
+updateMovie | public | name : str, status : str, rate : float | response : response
+deleteMovie | public | id : int | response : response
 
 ## Statistics
+mamovie_bot.py = 596 - 24 lines = 572 lines
+key_loader.py = 14 lines
+CountryId.php = 118 lines
+Movies.php = 121 lines
+CountryId_model.php = 34 lines
+Movies_model.php = 34 lines
+.env = 6 lines
+
+### Total Lines = 899 lines
+
