@@ -70,6 +70,7 @@ All the code that I make is almost 100% my own by looking at the documentation o
 * My friend, [parampaa](https://github.com/parampaa2).
 * Rapptz.
 * johnwmillr.
+* chriskacerguis.
 * Web Programming Unpas.
 * and some great api that i used.
 
