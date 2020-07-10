@@ -1,5 +1,5 @@
 # MamovieBot
-[![License APGL3](https://img.shields.io/github/license/albertopoljak/Licensy?color=red)](LICENSE.md)
+[![License APGL3](https://img.shields.io/github/license/albertopoljak/Licensy?color=red)](LICENSE)
 [![Invite me!](https://img.shields.io/badge/-Invite%20me-gray?logo=discord)](https://discord.com/api/oauth2/authorize?client_id=686971434509402168&permissions=473431136&scope=bot) 
 ![Python-Versions](https://img.shields.io/badge/python-3.7-blue?style=flat-square)
 ![Discord.py-Version](https://img.shields.io/badge/discord.py-1.3.3-blue?style=flat-square)
