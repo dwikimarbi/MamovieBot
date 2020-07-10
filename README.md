@@ -6,6 +6,8 @@
 
 This project was created to complete course assignments portfolio. Expert System 112 in Computer Science Major at Universitas Negeri Jakarta.
 
+* [Tutorial](https://github.com/DNABigBoss/MamovieBot/issues/2)
+
 ## This bot is suitable for discord developers 
 
 With the following features:
