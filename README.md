@@ -1,7 +1,10 @@
 # MamovieBot
-This project was created to complete course assignments portfolio. Expert System 112 in Computer Science Major at Universitas Negeri Jakarta.
+[![License APGL3](https://img.shields.io/github/license/albertopoljak/Licensy?color=red)](LICENSE.md)
+[![Invite me!](https://img.shields.io/badge/-Invite%20me-gray?logo=discord)](https://discord.com/api/oauth2/authorize?client_id=686971434509402168&permissions=473431136&scope=bot) 
+![Python-Versions](https://img.shields.io/badge/python-3.7-blue?style=flat-square)
+![Discord.py-Version](https://img.shields.io/badge/discord.py-1.3.3-blue?style=flat-square)
 
-If you interest to test my bot to your servers. Link invite in [here](https://discord.com/api/oauth2/authorize?client_id=686971434509402168&permissions=473431136&scope=bot) 
+This project was created to complete course assignments portfolio. Expert System 112 in Computer Science Major at Universitas Negeri Jakarta.
 
 ## This bot is suitable for discord developers 
 
@@ -58,7 +61,8 @@ pip install youtube-dl
 * [Torrent Movie api](https://yts.mx/api) by Yify
 * [My REST api](https://github.com/DNABigBoss/REST-API-Mamovie) by myself
 
-## Additional
+## Authors
+* [DNABigBoss](https://github.com/DNABigBoss)
 All the code that I make is almost 100% my own by looking at the documentation of all the Api's.
 
 ## Big Thanks to
@@ -69,7 +73,25 @@ All the code that I make is almost 100% my own by looking at the documentation o
 * and some great api that i used
 
 ## License
-All license to MIT License
+
+This project is licensed under the GNU AGPLv3 License - see the [LICENSE.md](LICENSE.md) file for details
+, for plain english you can check out [tldrlegal](https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)).
+
+If you fork/download the code and run your own bot instance **WITHOUT** changing the code then you don't have to worry
+regarding the license as all is already implemented in the bot functionality (commands that link to this readme, state
+authors etc..) 
+
+But if you fork/download/host this bot and you **CHANGED** any of the code you **must** hold to this:
+
+- Include copyright (see [Authors](#authors))
+  - You cannot claim this code as yours.
+- Include the same license (see [LICENSE.md](LICENSE.md))
+- State changes
+  - any changes to the source code must be disclosed (public).
+- Disclose source
+  - you cannot take the code and make it private.
+- Include install instructions
+  - You can link to this readme or to your own instructions.
 
 
 Contact me at: dwikisulton@gmail.com
