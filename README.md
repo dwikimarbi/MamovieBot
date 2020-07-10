@@ -63,14 +63,15 @@ pip install youtube-dl
 
 ## Authors
 * [DNABigBoss](https://github.com/DNABigBoss)
+
 All the code that I make is almost 100% my own by looking at the documentation of all the Api's.
 
 ## Big Thanks to
-* My friend
-* Rapptz
-* johnwmillr
-* Web Programming Unpas
-* and some great api that i used
+* My friend, [parampaa](https://github.com/parampaa2).
+* Rapptz.
+* johnwmillr.
+* Web Programming Unpas.
+* and some great api that i used.
 
 ## License
 
