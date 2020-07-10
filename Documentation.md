@@ -143,13 +143,13 @@ updateMovie | public | name : str, status : str, rate : float | response : respo
 deleteMovie | public | id : int | response : response
 
 ## Statistics
-mamovie_bot.py = 596 - 24 lines = 572 lines
-key_loader.py = 14 lines
-CountryId.php = 118 lines
-Movies.php = 121 lines
-CountryId_model.php = 34 lines
-Movies_model.php = 34 lines
-.env = 6 lines
+* mamovie_bot.py = 596 - 24 lines = 572 lines
+* key_loader.py = 14 lines
+* CountryId.php = 118 lines
+* Movies.php = 121 lines
+* CountryId_model.php = 34 lines
+* Movies_model.php = 34 lines
+* .env = 6 lines
 
 ### Total Lines = 899 lines
 
