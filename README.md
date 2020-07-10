@@ -75,7 +75,7 @@ All the code that I make is almost 100% my own by looking at the documentation o
 
 ## License
 
-This project is licensed under the GNU AGPLv3 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU AGPLv3 License - see the [LICENSE](LICENSE) file for details
 , for plain english you can check out [tldrlegal](https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)).
 
 If you fork/download the code and run your own bot instance **WITHOUT** changing the code then you don't have to worry
